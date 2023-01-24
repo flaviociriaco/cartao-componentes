@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.container {
+  display: flex;
+  width: 300px;
+  height: 400px;
+}
+
+.information {
+  background-color: hsl(30, 38%, 92%);
+  width: 300px;
+  height: 100%;
+  padding: 20px;
+}
+
+.container img {
+  width: 280px;
+  height: 100%;
+}
+
+h3 {
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  margin-top: 10px;
+}
+
+.information h1 {
+  color: hsl(212, 21%, 14%);
+  width: 220px;
+  margin-top: 20px;
+  line-height: 100%;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: justify;
+  color: hsl(228, 12%, 48%);
+  margin: 25px 0;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+.price02 {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+.information img {
+  width: 10px;
+  height: 10px;
+}
+
+.information button {
+  background-color: hsl(158, 36%, 37%);
+  width: 250px;
+  height: 45px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+}
+
+.information button img {
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.footer {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+}
